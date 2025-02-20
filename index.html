@@ -4,16 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe.com</title>
+    <link rel="shortcut icon" href="img/rcon.png" type="image/x-icon">
     <meta name="author" content="Talatu Ibrahim" >
     <meta name="keyword" content="cookies chicken cake cooking choocolatecakes soup cheff resturant chips diy" >
     <!-- link to materialise css -->
     <link rel="stylesheet" href="css/materialize.css">
+    <link href="http://fonts.googleapis.com/icon?family=material+icons" rel="stylesheet">
 </head>
 <body>
     <!-- page start -->
-    <header></header>
+    <header>
+        <div class="navbar fixed">
+            <nav class="white darken-4">
+                <div class="container">
+                    <a href="">
+                        <img src="img/logo.png" alt="" width="15%">
+                    </a>
+                    <a href="#mobile-links" class="sidenav-trigger"></a> 
+                    <ul class="right hide-on-med-and-down">
+                        <li> <a href="" class="orange-text text-darken-4"> <strong>Home </strong></a></li>
+                        <li><a href="" class="orange-text text-darken-4"> <strong> Cakes</strong> </a></li>
+                        <li><a href="" class="orange-text text-darken-4"><strong>Soups</strong> </a> </li>
+                        <li><a href="" class="orange-text text-darken-4"> <strong>Chicken</strong></a> </li>
+                        <li><a href="" class="orange-text text-darken-4"> <strong>Costomers</strong></a></li> 
+                    </ul>
+                </div>
+            </nav>
+        </div>
+                <div class="slider">
+                    <ul class="slides">
+                        <li> <img src="img/cake_fruit.jpg" alt="" class="responsive-img"></li>
+                        <li> <img src="img/shrimp_soup.jpg" alt="" class="responsive-img"></li>
+                        <li> <img src="img/chicken_3.jpg" alt="" class="responsive-img"></li>
+                        <li> <img src="img/dessert_chocolate.jpg" alt="" class="responsive-img"></li>
+                        <li> <img src="img/ginger_cake.webp" alt="" class="responsive-img"></li>
+                    </ul>
+                </div>
+    </header>
     <!-- main content -->
-    <main></main>
+    <main>
+        <div class="container">
+            <h2 class="orange-text text-darken-4">Hello there, foodies</h2>
+            <p class="flow-text"> You smart, you loyal, you a genius. You see the hedges , how i got it shaped up? it's like getting a haircut stay, stay fresh. I' m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. In life there will be raods blocks but we will over come it. In life you have to take the trash out, if you trash in your life, take it out, throw it away ,get rid of it, major key.</p>
+            <hr> <br>  <br>
+                <div class="row">
+                    <div class="col l4">
+                        <div class="orange darken-4">
+                            <div class="center-align">
+                                <button class="btn btn-flat white-text darken-4">CAKES</button>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col l4">
+                            <div class="orange darken-4">
+                                <i class="white darken-4">
+                                    <div class="center-align">
+                                        <button class="btn btn-flat white-text">SOUPS</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l4">
+                        <div class="orange darken-4">
+                            <div class="center-align">
+                                <button class="btn btn-flat white-text darken-4">CHICKEN</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </main>
     <!-- footer content below -->
     <footer></footer>
 
@@ -24,8 +83,8 @@
     <script src="js/materialize.js"></script>
     <script>
         $(document).ready(function(){
-
-            
+        $('.sidnav').sidenav();
+        $('.slider').slider();
         })
     </script>
 </body>
