@@ -46,32 +46,55 @@
         <div class="container">
             <h2 class="orange-text text-darken-4">Hello there, foodies</h2>
             <p class="flow-text"> You smart, you loyal, you a genius. You see the hedges , how i got it shaped up? it's like getting a haircut stay, stay fresh. I' m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. In life there will be raods blocks but we will over come it. In life you have to take the trash out, if you trash in your life, take it out, throw it away ,get rid of it, major key.</p>
-            <hr> <br>  <br>
+            <!-- collapsbles -->
+                <hr>
                 <div class="row">
-                    <div class="col l4">
-                        <div class="orange darken-4">
-                            <div class="center-align">
-                                <button class="btn btn-flat white-text darken-4">CAKES</button>
-                            </div>
-                        </div>
+                    <div class="col s12 m6 l4">
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header orange darken-4 white-text">
+                                    <i class="material-icons">label</i>
+                                    <strong>CAKES</strong>
+                                </div>
+                                <div class="collapsible-body">
+                                    <img src="img/sponge_cake.webp" alt="sponge cake" class="responsive-img">
+                                    <p>i'm given you cloth talk, Special cloth alert, cut from a special cloth. it's on you how you want to live your life.</p>
+                                    <a class="btn btn-flat orange darken-4 white-text" href=""><strong>ALL CAKE RECIPES</strong></a>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                        <div class="col l4">
-                            <div class="orange darken-4">
-                                <i class="white darken-4">
-                                    <div class="center-align">
-                                        <button class="btn btn-flat white-text">SOUPS</button>
-                            </div>
-                        </div>
+                    <div class="col s12 m6 l4">
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header orange darken-4 white-text">
+                                    <i class="material-icons">lable</i>
+                                    <strong>SOUPS</strong>
+                                </div>
+                                <div class="collapsible-body">
+                                    <img src="img/mexican_soup.webp" alt="mexican soup" class="responsive-img">
+                                    <p>The key to succes is to keep you above the water,never give up. The key is to drink fresh coconut.special cloth talk</p>
+                                    <a class="btn btn-flat orange darken-4 white-text" href=""> <strong>All SOUP RECIPES</strong></a>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col l4">
-                        <div class="orange darken-4">
-                            <div class="center-align">
-                                <button class="btn btn-flat white-text darken-4">CHICKEN</button>
-                            </div>
-                        </div>
+                    <div class="col s12 m6 l4">
+                        <ul class="collapsible" >
+                            <li>
+                                <div class="collapsible-header orange darken-4 white-text">
+                                    <i class="material-icons">label</i>
+                                    <strong>CHICKEN</strong>
+                                </div>
+                                <div class="collapsible-body">
+                                    <img src="img/chicken_8.webp" alt="full chicken with rice" class="responsive-img">
+                                    <p>A major key, never panic. Don't panic, when it's get crazy and rough, don't panic' stay calm. The key is to drink some fresh milk</p>
+                                    <a class="btn btn-flat orange darken-4 white-text"  href=""> <STrong>All CHICKEN RECIPES</STrong> </a>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-        </div>
     </main>
     <!-- footer content below -->
     <footer></footer>
@@ -85,6 +108,7 @@
         $(document).ready(function(){
         $('.sidnav').sidenav();
         $('.slider').slider();
+        $('.collapsible').collapsible();
         })
     </script>
 </body>
