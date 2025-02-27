@@ -10,9 +10,17 @@
     <!-- link to materialise css -->
     <link rel="stylesheet" href="css/materialize.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
+    <style> 
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        html {
+            font-family: courgette;
+        }
+
+
         .slider .indicators .indicator-item.active {
             background-color: #e65100 !important;
+            
         }
     </style>
 </head>
@@ -585,11 +593,15 @@
                                 </div>
                             </div>
                             <button class=" btn btn-flat orange darken-4 white-text">Call Us Now</button>
-                            <i></i>
+                            <i class="material-icons right">call</i>
                         </div>
-                        <div class="form">
-                            <input type="text" name="" id="name">
-                            <label for="name">name</label>
+                        <div class="col s12 l6 push-l1">
+                            <form action="">
+                                <div class="input-field">
+                                    <input class="orange-text text-darken-4" type="text" name="" id="name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </form>
                         </div>
     </main>
         <footer class="page-footer black darken-4">
@@ -602,11 +614,11 @@
                     <div class="col s12 l4 push-l4">
                         <h5 class="orange-text text-darken-4">Quike Links</h5>
                         <ul>
-                            <li>Back to top </li>
-                            <li>Cake</li>
-                            <li>Soup</li>
-                            <li>Chicken</li>
-                            <li>Costomers</li>
+                            <li> <a class="white-text" href="#sliteshadow"> Back to top</a></li>
+                            <li> <a class="white-text" href="#cakes">Cakes </a></li>
+                            <li> <a class="white-text" href="#soups">Soups </a></li>
+                            <li> <a class="white-text" href="#chicken">Chicken</a></li>
+                            <li> <a class="white-text" href="#customers">Customers</a></li>
                         </ul>
                     </div>
                 </div>
